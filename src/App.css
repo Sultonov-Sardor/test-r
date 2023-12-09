@@ -1,0 +1,45 @@
+.light {
+  --body-bg: #f2f2f2 !important;
+  --card-bg: #fff !important;
+  --card-color: #000 !important;
+}
+.dark {
+  --body-bg: #202c36;
+  --card-bg: #2b3844;
+  --card-color: #fff;
+}
+
+main {
+  color: var(--card-color);
+  background-color: var(--body-bg);
+}
+
+nav {
+  color: var(--card-color) !important;
+  background-color: var(--card-bg);
+}
+
+button {
+  color: var(--card-color);
+}
+
+a {
+  color: var(--card-color) !important;
+}
+
+.card {
+  color: var(--card-color) !important;
+  background-color: var(--card-bg) !important;
+}
+
+input {
+  background-color: var(--card-bg) !important;
+  color: var(--card-color) !important;
+}
+input::placeholder {
+  color: var(--card-color) !important;
+}
+select {
+  background-color: var(--card-bg) !important;
+  color: var(--card-color) !important;
+}

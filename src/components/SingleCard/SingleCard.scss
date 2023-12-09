@@ -1,0 +1,9 @@
+.hero {
+  height: 100vh;
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    height: 100%;
+  }
+}
